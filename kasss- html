@@ -1,0 +1,40 @@
+// Draft Plan with Beige Background Color
+
+// Chosen Category
+const chosenCategory = "Educational";
+const categoryObjective = "informative, enlightening, and inspirational";
+const categoryBenefits = "benefit and empower our viewers";
+
+// Target Audience
+const targetAudience = ["teens", "people willing to help the unfortunate", "sponsors or brands willing to help the unfortunate"];
+const audienceBenefits = "expand content with teenagers' influence";
+
+// Needs
+const needs = [
+    "Camera",
+    "Microphone",
+    "Laptop/Cellphone",
+    "Editing app",
+    "Internet",
+    "Online design Platform (e.g., Canva)"
+];
+const needsPurpose = "fulfill need for building Educational Video and Educating People";
+
+// Creating a Div for Background Color
+const backgroundDiv = document.createElement("div");
+backgroundDiv.style.backgroundColor = "beige";
+backgroundDiv.style.width = "100%";
+backgroundDiv.style.height = "100%";
+backgroundDiv.style.position = "fixed";
+backgroundDiv.style.top = "0";
+backgroundDiv.style.left = "0";
+backgroundDiv.style.zIndex = "-1";
+document.body.prepend(backgroundDiv);
+
+// Adding JavaScript
+function addJavaScript() {
+    // Code to add JavaScript functionality here
+}
+
+// Execution
+addJavaScript(); 
